@@ -1,29 +1,17 @@
 /* Custom CSS for additional styling */
 
-/* Example: Header Section */
+/* Header section customizations */
 header {
   background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
 }
 
-header h1 {
-  font-size: 4rem;
-  font-weight: 700;
+/* Login & SignUp buttons hover effects */
+a:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05);
 }
 
-header p {
-  font-size: 1.25rem;
-}
-
-/* Sponsor logos styling */
-#sponsors img {
-  transition: transform 0.3s ease;
-}
-
-#sponsors img:hover {
-  transform: scale(1.1);
-}
-
-/* Footer Section */
+/* Footer Section custom styling */
 footer {
   background-color: #333;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tourist Booking Landing Page</title>
+    <link href="styles.css" rel="stylesheet"> <!-- Link to your custom CSS file -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans bg-gray-100">
@@ -11,6 +12,19 @@
     <!-- Header Section -->
     <header class="relative bg-cover bg-center h-screen" style="background-image: url('header-image.jpg');">
         <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 flex justify-between items-center h-full px-8 text-white">
+            <!-- Navigation and Buttons -->
+            <div class="flex space-x-6">
+                <a href="#home" class="text-lg font-semibold hover:text-yellow-500 transition">Home</a>
+                <a href="#about" class="text-lg font-semibold hover:text-yellow-500 transition">About</a>
+                <a href="#services" class="text-lg font-semibold hover:text-yellow-500 transition">Services</a>
+            </div>
+            <!-- Login and Signup Buttons -->
+            <div class="flex space-x-4">
+                <a href="#login" class="bg-blue-600 text-white py-3 px-6 rounded-full text-xl font-semibold hover:bg-blue-500 transition">Login</a>
+                <a href="#signup" class="bg-yellow-500 text-black py-3 px-6 rounded-full text-xl font-semibold hover:bg-yellow-400 transition">Sign Up</a>
+            </div>
+        </div>
         <div class="relative z-10 flex justify-center items-center h-full text-white text-center px-4">
             <div>
                 <h1 class="text-4xl md:text-6xl font-bold mb-4">Book Your Dream Vacation</h1>
@@ -52,10 +66,3 @@
 
 </body>
 </html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tourist Booking Landing Page</title>
-  <link href="styles.css" rel="stylesheet"> <!-- Link to your custom CSS file -->
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,58 +8,34 @@
     <link href="styles.css" rel="stylesheet"> <!-- Link to your custom CSS file -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-sans bg-gray-100">
 
-    <!-- Header Section -->
-    <header class="relative bg-cover bg-center h-screen" style="background-image: url('header-image.jpg');">
-        <div class="absolute inset-0 bg-black opacity-50"></div>
+<body>
 
-        <!-- Login and Signup Buttons (Top Right Corner) -->
-        <div class="absolute top-8 right-8 flex space-x-4 z-20">
-            <a href="#login" class="bg-blue-600 text-white py-3 px-6 rounded-full text-xl font-semibold hover:bg-blue-500 transition">Login</a>
-            <a href="#signup" class="bg-yellow-500 text-black py-3 px-6 rounded-full text-xl font-semibold hover:bg-yellow-400 transition">Sign Up</a>
-        </div>
-
-        <!-- Main Content (Centered) -->
-        <div class="relative z-10 flex justify-center items-center h-full text-white text-center px-4">
-            <div>
-                <h1 class="text-4xl md:text-6xl font-bold mb-4">Book Your Dream Vacation</h1>
-                <p class="text-xl md:text-2xl mb-6">Explore top tourist destinations at unbeatable prices</p>
-                <!-- Book Now Button placed before content in header -->
-                <a href="#booking" class="bg-yellow-500 text-black py-3 px-6 rounded-full text-xl font-semibold hover:bg-yellow-400 transition">Book Now</a>
+    <div class="Containers min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-28 py-5 relative">
+        <nav class="flex items-center">
+            <img src="images/logo.png" class="w-40 cursor-pointer">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Home</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">About</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Features</a>
+                </li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Contact</a>
+                </li>
+            </ul>
+            <img src="images/cart.png" class="w-8 cursor-pointer">
+        </nav>
+        <div class="text-white mt-48 max-w-xl">
+            <h1 class="text-6xl font-semibold leading-normal">Groceries<br>delivery in <span class="font-light">15
+                    mins</span></h1>
+            <p>Grocify offer a wide range of products, including fresh products, meats, dairy, baked goods and
+                non-perishable items.</p>
+            <div class="mt-10">
+                <a href="#"
+                    class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Order
+                    Now</a>
+                <a href="#">Download App <span class="text-lg inline-block rotate-90">&#10148</span></a>
             </div>
         </div>
-    </header>
-
-    <!-- Sponsors Section -->
-    <section class="py-16 bg-gray-200" id="sponsors">
-        <div class="max-w-6xl mx-auto text-center">
-            <h2 class="text-3xl font-semibold mb-8">Our Trusted Sponsors</h2>
-            <div class="flex justify-center space-x-12">
-              <img src="redbull-logo.png" alt="Red Bull" class="w-32 h-32 object-contain">
-              <img src="IndiGo-logo.png" alt="IndiGo" class="w-32 h-32 object-contain">
-              <img src="QATAR-logo.png" alt="QATAR" class="w-32 h-32 object-contain">
-            </div>
-        </div>
-    </section>
-
-    <!-- Booking Section -->
-    <section class="py-20 bg-white" id="booking">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-semibold mb-8">Start Your Journey Today</h2>
-            <p class="text-xl mb-8">Choose your destination and book your stay effortlessly.</p>
-            <a href="#" class="bg-blue-600 text-white py-3 px-8 rounded-full text-xl font-semibold hover:bg-blue-500 transition">Find Your Trip</a>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="bg-gray-800 text-white py-8 text-center">
-        <p>&copy; 2025 Tourist Booking, All rights reserved.</p>
-        <div class="mt-4">
-            <a href="#" class="text-gray-400 hover:text-white mx-4">Privacy Policy</a>
-            <a href="#" class="text-gray-400 hover:text-white mx-4">Terms of Service</a>
-        </div>
-    </footer>
-
+        <img src="images/grocery-image.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20">
+    </div>
 </body>
-</html>
